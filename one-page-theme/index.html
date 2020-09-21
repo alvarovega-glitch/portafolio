@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Theme</title>
+<link href="img/favicon.ico" rel="icon">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    
+	<header class="header-area">
+		<div class="container">
+			
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  
+				<a class="navbar-brand" href="#">Diseño Web I</a>
+				
+				
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+					</li>
+				  <li class="nav-item">
+					<a class="nav-link" href="AcercadeMI.html">Acerca de Mi</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="servicios.html">Servicios</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="portafolio.html">Portafolio de Proyectos</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="contacto.html">Contacto</a>
+				  </li>
+				</ul>
+
+			  </div>
+			</nav>
+			
+		</div>
+	</header>
+	
+	<section id="hero">
+		<div class="container">
+			<h1> Bienvenido a Mi Pagina</h1>
+			<h2> Mi nombre es Alvaro Vega</h2>
+		
+		
+		</div>
+	</section>
+	
+	<section id="intro">
+		<div class="container">
+			<h3>Esta pagina sera usada para proporcionar mi informacion sobre mis acontecimientos en Diseno Web I y tambien cosasa sobre mi.</h3>
+		
+		
+		</div>
+	</section>
+    
+
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+        new WOW().init();
+	</script>
+    <script>
+		$(function() {
+			$(window).on('scroll', function () {
+				if ($(window).scrollTop() > 48) {
+					$('.header-area').addClass('sticky slideInDown');
+				} else {
+					$('.header-area').removeClass('sticky slideInDown');
+				}
+			});
+			
+			$('#navbar').onePageNav({
+				currentClass: 'active',
+				scrollSpeed: 1000,
+				easing: 'easeOutQuad'
+        	});
+			
+			
+			
+		});
+	</script>
+<footer>
+	<section>
+		<div class="container">
+			<p>Copyright Alvaro Vega. All Rights Reserved</p>
+		</div>
+	</section>
+	</footer>
+
+</body>
+
+</html>

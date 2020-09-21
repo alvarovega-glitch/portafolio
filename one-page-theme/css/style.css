@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+#hero{
+text-align: center;
+padding: 40px 0;
+background-image: url("../img/WhatsApp Image 2020-07-22 at 12.47.55 PM.jpeg");
+background-repeat:space;
+background-size:cover;
+background-position: center;
+}
+
+#hero h1{
+	color: #000000;
+	font-size: 70px;
+	font-weight:600;
+}
+#hero h2{
+	color: #FFFFFF;
+	font-size: 45px;
+	font-weight: 300;
+}
+#intro{
+text-align: left;
+padding: 150px 0;
+background-color: #4D4D4D;
+}
+
+#intro h3{
+color: #FFFFFF;
+
+}
+
+#aboutme{
+background-color:#D8D8D8;
+padding-top: 30px;
+padding-bottom: 90px;
+}
+
+#aboutme h1{
+text-align: center;
+font-size: 55px;
+color: #000283;
+margin-bottom: 40px;
+}
+
+#aboutme h2{
+text-align: left;
+font-size: 40px;
+color: #000000;
+word-spacing: 3px;
+}
+
+#serviciosicons h1{
+text-align: center;
+font-size: 70px;
+margin-bottom: 30px;
+}
+
+#serviciosicons {
+background-color: #D2D2D2;
+padding: 50px 0;
+}
+#serviciosicons h2{
+font-size: 35px;	
+}
+
+#serviciosicons i{
+font-size: 32px;
+color: #FF0004;
+}
+
+.bg-azul {
+	background-color: #0B002E;
+	padding: 7% 0;
+	box-shadow: 0px 10px 20px 5px #ddd;
+	color: #fff;
+	text-align: center;
+}
+.bg-story{
+	background-image: ;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0;
+	
+}
+
+.bg-story2{
+	background-image:url("../img/WhatsApp Image 2020-07-22 at 12.47.55 PM.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 70px 0;
+}
+footer {
+	border-top: 4px solid #494949;
+	text-align: center;
+	padding: 40px 0;
+}
